@@ -1,7 +1,7 @@
 Reflection on Git and GitHub
 This Git and GitHub course was a valuable learning journey for me.
 I started by registering a GitHub account and learning basic commands like cloning and committing files. 
-I faced many small issues at first, such as confusing terminal commands and file path errors.
+I faced many small issues at first, such as confusing terminal commands and file path errors. For example, I understand the difference of "main" and "master": no difference but need to clearify.
 
 The biggest challenge was pushing code to GitHub. I had to use a VPN to fix network problems, and I spent time setting up SSH keys to replace password authentication.
 After careful steps, I finally managed to push my work successfully.

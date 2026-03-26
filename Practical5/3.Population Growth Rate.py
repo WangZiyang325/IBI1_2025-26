@@ -1,3 +1,4 @@
+# This code calculates the percentage change in population for a list of countries between 2020 and 2024, sorts the countries by population growth rate, identifies the country with the highest and lowest growth rates, and visualizes the growth rates using a bar chart.
 import matplotlib.pyplot as plt
 # create a dictionary to store population data for each country in 2020 and 2024
 population= {

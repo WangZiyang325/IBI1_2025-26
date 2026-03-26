@@ -1,3 +1,4 @@
+# This code creates a dictionary to store gene expression data, adds a new gene and its expression level, plots the gene expression levels using a bar chart, checks if a specific gene of interest is in the dataset and prints its expression level, and calculates the average expression level of all genes in the dataset.
 import numpy as np
 import matplotlib.pyplot as plt
 # create a dictionary to store gene expression data

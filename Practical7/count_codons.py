@@ -72,7 +72,7 @@ if __name__ == "__main__":
     plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
     labels = list(codon_count.keys())
     sizes = list(codon_count.values())
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, textprops={'fontsize': 5}, pctdistance=0.8)
     plt.title(f'Codon Frequency Upstream of {user_stop} (Longest ORF)')
     plt.axis('equal')
     # Save chart as image file

@@ -1,0 +1,13 @@
+Practical 9 Reflection
+
+1. Overall Experience:
+This practical was a progressive challenge. Implementing the basic SIR model was straightforward as it built upon previous Python knowledge, but transitioning to the spatial SIR model required a more careful logical setup.
+
+2. Difficulty:
+The hardest part was the spatial_SIR.py. Managing the 2D grid and ensuring that infection only spread to neighbors without double-counting in a single time step took several attempts to get right. However, writing the pseudocode beforehand helped significantly in organizing the logic.
+
+3. Enjoyment:
+I particularly enjoyed Task 3 (Spatial SIR). Seeing the disease spread like a 'wave' across the grid made the abstract mathematical parameters (beta and gamma) feel much more real and intuitive. It was satisfying to see how the stochastic nature of the model produced different patterns every time I ran the code.
+
+4. Key Learning:
+The most important thing I learned was how to translate biological processes into probabilistic models. Understanding that we can use binomial sampling to represent the likelihood of infection or recovery allowed me to see how simple rules can lead to complex, realistic population dynamics.

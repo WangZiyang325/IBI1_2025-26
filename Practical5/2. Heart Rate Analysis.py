@@ -1,7 +1,7 @@
 # This code analyzes a dataset of resting heart rates for a group of patients, categorizes the heart rates into low, normal, and high categories, determines which category has the largest number of patients, and visualizes the distribution of heart rate categories using a pie chart.
 
 import numpy as np
-import matplotlib.pyplot as pltS
+import matplotlib.pyplot as plt
 
 # create a dataset of resting heart rates for a group of patients
 heart_rates = (72, 60, 126, 85, 90, 59, 76, 131, 88, 121, 64)
@@ -29,8 +29,10 @@ print('Number of patients with low heart rate:', a)
 print('Number of patients with normal heart rate:', b)
 print('Number of patients with high heart rate:', c)
 # determine which category has the largest number of patients
-maxcount = max({'low': a, 'normal': b, 'high': c})
-print('The category with the largest number of patients is:', maxcount)
+hr_counts = {'low': a, 'normal': b, 'high': c}
+max_value = max(hr_counts.values())
+max_category = [k for k, v in hr_counts.items() if v == max_value][0]
+print('The category with the largest number of patients is:', max_category)
 
 # create a pie chart to visualize the distribution of heart rate categories
 labels = ['Low (<60 bpm)', 'Normal (60-120 bpm)', 'High (>120 bpm)']

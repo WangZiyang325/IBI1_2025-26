@@ -1,0 +1,8 @@
+Question: 
+How does the global average DALYs rate change from 1990 to 2019?
+
+Line Number:
+The analysis for this question starts at line 58 of dalys.py.
+
+Discussion:
+The results show a clear downward trend in the global average DALYs rate from 1990 to 2019. This suggests that, on a global scale, the burden of disease (mortality and morbidity combined) has been decreasing over the last three decades, likely due to improvements in healthcare, sanitation, and medical technology.

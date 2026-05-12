@@ -12,7 +12,7 @@ from math import ceil
 
 total_rand = 0           # set initial total_rand value to 0
 progress=0               # set initial progress value to 0
-while progress<=10:      
+while progress<10:      
 	progress+=1          # executes the task ten times
 	n = randint(1,10)    # draw a random number between 1 and 10
 	total_rand+=n        # add th ten random number together

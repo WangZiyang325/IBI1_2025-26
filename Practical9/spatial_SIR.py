@@ -78,4 +78,5 @@ fig.suptitle('2D Spatial SIR Model', fontsize=18, y=0.98, weight='bold')
 
 # Adjust layout and display the final plot
 plt.tight_layout()
+plt.savefig('spatial_sir_2d_grid.png', dpi=150, bbox_inches='tight')
 plt.show()

@@ -5,10 +5,6 @@
 # 5. Add 1 to day count, print new infected people and current day
 # 6. After loop, print total days to reach 91 infected
 
-
-
-
-
 n=5  # initial population
 v=0.4  # daily growth rate (40%)
 day=1  # starting day
@@ -18,6 +14,6 @@ while n<91:
     if n>=91:
         n=91
     day=day+1
-    print('new individuals added:',n-a,'on day:',day)
+    # 新增：打印当日累计总感染人数 + 当日新增
+    print('total infected on day', day, ':', n, '| new individuals added:', n-a)
 print('It needs',day,'days for the population to be 91.') 
-

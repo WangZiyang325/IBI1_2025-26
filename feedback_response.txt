@@ -1,0 +1,16 @@
+Dear Marker,
+
+I am writing to reflect on and respond to the feedback I received regarding my Practical portfolio submissions. I appreciate your time in identifying specific areas where my code logic and professional habits needed refinement.
+
+Firstly, I acknowledge that my commit messages in Practical 3 were too basic. I have since transitioned to a more professional "Action + File + Function" format (e.g., "Update SIR.py: save plot and include results") to ensure my development process is transparent and informative.
+
+Secondly, I have addressed several technical and logical errors pointed out in my previous work:
+
+Practical 4 (infection.py & mystery_code.py): I updated the infection script to display both "daily new cases" and the "cumulative total" to better represent the outbreak's scale. In mystery_code.py, I corrected the loop condition from progress <= 10 to progress < 10 to ensure exactly 10 random numbers are generated, as specified.
+
+Practical 5 (Heart Rate Analysis): I fixed the syntax error where matplotlib.pyplot was incorrectly imported as plts but called as plt. Furthermore, I replaced the flawed max() comparison of category strings with a more robust logic: max_category = [k for k, v in hr_counts.items() if v == max_value][0]. This ensures the script correctly identifies the category based on patient counts rather than alphabetical order.
+
+Reflecting on these corrections has been highly beneficial for improving my coding accuracy and attention to detail. This process has deepened my understanding of the importance of precise logic and consistent coding standards, and I am committed to applying this more rigorous approach to all my future assignments.
+
+Best wishes,
+Wang Ziyang
